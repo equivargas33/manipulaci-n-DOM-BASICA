@@ -114,8 +114,6 @@ main {
             justify-content: center;
         }
 
-            
-
             #calculate img {
                 width: 24px;
                 height: 18px;
@@ -134,7 +132,7 @@ main {
             display: flex;
             flex-flow: column nowrap;
             font-style: italic;
-            padding: 8px 14px;
+            padding: 8px 24px;
             
         }
 
@@ -158,5 +156,10 @@ main {
                 font-weight: 800;
             }
 
+@media (min-width: 768px){
+    .main__container {
+        width: 80%;
+    }
+}
 
  
