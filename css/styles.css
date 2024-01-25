@@ -62,7 +62,6 @@ main {
     height: 400px;
     display: flex;
     flex-flow: column nowrap;
-    
     border-radius: 2rem 2rem 8rem 2rem;
     background-color: var(--white);
 }
