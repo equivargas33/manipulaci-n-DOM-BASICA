@@ -7,29 +7,32 @@
     <title>Age Calculator</title>
 </head>
 <body>
-    <h1>hola mundo</h1>
     <main>
         <div class="main__container">
-            <div class="container__inputs">
-                <label for="day">DAY</label>
-                <input id="day" type="text" placeholder="DD">
-                <label for="month">MONTH</label>
-                <input id="month" type="text" placeholder="MM">
-                <label for="year">YEAR</label>
-                <input id="year" type="text" placeholder="YYYY">
-            </div>
+            <form class="container__inputs">
+                <div class="input--change">
+                    <label for="day">DAY</label>
+                    <input id="day" type="text" placeholder="DD">
+                </div>
+                <div class="input--change">
+                    <label for="month">MONTH</label>
+                    <input id="month" type="text" placeholder="MM">
+                </div>
+                <div class="input--change">
+                    <label for="year">YEAR</label>
+                    <input id="year" type="text" placeholder="YYYY">
+                </div>  
+            </form>
             <div class="container__button">
+                <span></span>
                 <a href="#" id="calculate">
-                    <img src="assets/images/favicon-32x32.png" alt="calculate btn">
+                    <img src="assets/images/icon-arrow.svg" alt="calculate btn">
                 </a>
             </div>
             <div class="container__results">
-                <h1>--</h1>
-                <h2>years</h2>
-                <h1>--</h1>
-                <h2>months</h2>
-                <h1>--</h1>
-                <h2>days</h2>
+                <h2>-- <span>years</span></h2>
+                <h3>-- <span>months</span></h3>
+                <h4>-- <span>days</span></h4>
             </div>
         </div>
     </main>
