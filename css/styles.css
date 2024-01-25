@@ -139,6 +139,10 @@ main {
             
         }
 
+            .container__results span {
+                color: var(--purple);
+            }
+
             .container__results h2 {
                 font-style: italic;
                 font-size: 4rem;
